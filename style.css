@@ -425,6 +425,9 @@ padding: 20px;
     width: 100%;
     text-align: left;
   }
+  .container-2 p{
+    max-width: 75%;
+  }
 }
 
 @media (max-width:640px) {
