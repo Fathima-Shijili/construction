@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"poppins",sans-serif;
+}
+header {
+    background-color:white;
+    width: 100%;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 105px;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    gap:67px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight:500;
+}
+
+
+
+.contact-button button {
+    background-color:#1692C7;
+    color: white;
+    padding: 10px 20px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.container-2 {
+    background-image:url("../../../Downloads/mumbai-skyline-skyscrapers-construction 1 (2).png");
+    display:flex;
+    flex-direction:column;
+    background-size: cover;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color: white;
+    padding: 150px 20px;
+    gap:15px;
+}
+
+.container-2 h1 {
+    margin: 0%;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.container-2 p {
+    margin: 0%;
+    font-size: 15px;
+    font-weight: 400;
+    top:386px;
+    height:46px;
+    line-height:100%;
+    Letter-spacing:0%;
+}
+.pb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:33px;
+}
+
+.container-2 button {
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #1692C7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container-2 p,.container-2 button{
+    display: flex;
+    flex-direction: column;
+    gap:55px;
+
+}
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 105px;
+    gap:40px;
+    padding-left: 105px;
+    padding-right: 75px;
+}
+
+.left-section img {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.right-section {
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    gap: 14px;
+
+}
+
+.right-section h1 {
+    font-weight: 600;
+    font-size: 35px;
+    margin:0;
+}
+
+.right-section p {
+    margin:0;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.right-section button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1692C7;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+.section-3{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #EFF5F9;
+    text-align: center;
+    padding-left: 105px;
+    padding-right: 75px;
+}
+ .section-3 .top-section h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.section-3 .card-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width:360px;
+
+}
+.section-3 .card-row{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.card-container img{ 
+    width:100%;
+    object-fit:cover;
+}
+.card-container h1{
+
+    font-size: 17px;
+    font-weight:500;
+    margin-top: 15px;
+     line-height: 100%;
+    letter-spacing:0%;
+}
+.card-container p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 15px;
+line-height:normal;
+letter-spacing: 0%;
+text-align: center;
+
+    
+}
+.card-container button{
+    font-weight: 500;
+    font-size: 16px;
+    gap:10px;
+    padding:10px 20px;
+    background-color: #1692C7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.section-4 {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+.top-section{
+    width: 100%;
+    padding: 0;
+}
+
+.section-4 .top-section h1{
+    font-size: 35;
+    text-align: center;
+    width: 100%;
+}
+.section-4 .bottom-section {
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:93px;
+    width:100%;
+    overflow: hidden;
+
+
+}
+.bottom-section img{
+    width: 100%;
+    width:190px;
+    height:88px;
+    
+    
+}
+.section-5{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:105px ;
+    padding-right: 103px;
+    /* background-color: blue; */
+    background: rgba(239, 245, 249, 1);
+    width:100;
+    
+}.contact-right
+{
+    width: 100%;
+}
+.contactus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    gap: 75px;
+
+}.contact-right iframe{
+    width: 100%;
+    height:419px;
+}
+form{
+    width:100%;
+}
+label{
+    padding-top: 20px;
+}
+.contact-left{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    /* width: 81px;
+    height: 24px; */
+    /* width:100% */
+
+}
+
+.input-group input{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+}
+#comment{
+    padding:25px;
+    border-radius: 7px;
+}
+
+
+
+.input-label{
+    font-weight: 500;
+    font-size: 16px;
+
+    border: none;
+}
+
+.button-last{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 14px 20px;
+    background: rgba(22, 146, 199, 1);
+    color: white;
+    border: none;
+
+}
+.heading-5{
+    margin: 0;
+    padding-top: 44px;
+    padding-bottom: 48px;
+}
+.input ,#name,#email,#comment{
+    display: flex;
+    justify-content: space-between;
+    border:none;
+}.contact-right iframe{
+    width:100%;
+}
+
+
+.section-6 {
+    width:100%;
+    margin:60px;
+    background-color:white;
+    display: flex;
+    flex-direction:row;
+
+    justify-content: space-between;
+    padding: 100px 20px;
+    font-size: 14px;
+    gap:30px;
+    padding-right:105px;
+    padding-left:75px;
+    margin: 0;
+}
+.section-6 .group-1 img{
+    width:100%;
+    height: 63px;
+    top:3100px;
+    left:105px;
+}
+
+
+
+
+.section-6 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.section-6 h4{
+    margin: 6px 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer {
+padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background-color:#EFF5F9;
+    font-size: 13px;
+}
+/* HIDE checkbox by default */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon styling */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Responsive styles between 640px and 1024px */
+@media(max-width: 1024px) {
+  .menu-icon {
+    display: block;
+  }
+ 
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:100px;
+    background-color:#a29e9e;
+    gap: 20px;
+    z-index: 10;
+  }
+
+  #menu-toggle:checked ~ .nav-links  {
+    display: flex;
+  }
+
+  .container-1 {
+    flex-direction: row;
+    position: relative;
+    
+  }
+
+  .nav-links a, .btn1 {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width:640px) {
+  .section-2{
+    padding: 15px 25px;
+    gap:25px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+
+  }
+  .section-3 {
+    display: flex;
+  }
+  .card-row{
+    display: flex;
+    flex-direction: column;
+  }
+     .section2{
+        padding: 15px 25px;
+        gap:25px;
+    }
+    .right-section h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .right-section p {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .section3{ 
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+    }
+    .top-section {   
+        padding-bottom: 25px;
+        padding-top: 25px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .card-rows h1 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .card-rows p {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .card-rows button {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .cont-img {
+        gap: 9px;
+        padding-bottom: 17px;
+    }
+    .section-4 {
+        padding-left: 25px;
+        padding-right:25px;
+    }
+    .top-section {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .bottom-section{
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    /* section4 end */
+
+    /* section5 start */
+    .section-5{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+    }
+    .right-section {
+        width:100%;
+    }
+        .section-2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    .contactus{
+        gap: 25px;
+    }
+    .section-3{
+        padding:50px;
+    }
+    .container-1 {
+        gap:140px;
+        padding:20px 40px;
+    }
+    .heading-5 h1{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .button-last {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .section6{
+        display: flex;
+        flex-direction: column;
+        padding:15px 25px;
+        overflow: hidden;
+    }
+    .group-1,.group-2,.group-3,.group-4{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        padding: 15px 25px;
+    }
+    footer p{
+        font-size:12px;}
+        .section-4 .top-section h1{
+            font-weight: 600;
+            font-size: 50px;
+        }
+
+
+}
+@media (max-width:768px){
+
+
+
+.contactus{
+display: flex;
+flex-direction: column;
+}
+.section-3 .card-row{
+display: flex;
+flex-direction: column;
+}
+.section-2{
+display: flex;
+flex-direction:column-reverse;
+justify-content: center;
+align-items: center;
+}
+.right-section{
+    width:100%;
+}
+.section-6 
+{
+display: flex;
+flex-direction: column;
+}
+.section-6 .group-1 img {
+    object-fit: cover;
+    width: 20%;}
+     .section-3{ 
+        padding:50px;
+    }
+}
+
+
+
+
